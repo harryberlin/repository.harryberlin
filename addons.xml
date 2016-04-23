@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.script.bmwraspcontrol" name="BMWRaspControl" version="0.1.7" provider-name="harryberlin, Derhelge">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Addon for BMWRaspControl HelgeInterface</summary>
+    <description lang="en">Addon for BMWRaspControl HelgeInterface</description>
+    <platform>linux</platform>
+    <forum>http://www.bmwraspcontrol.de/board/</forum>
+    <email>---</email>
+    <source>not released at the moment</source>
+  </extension>
+</addon>
+
+<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="0.1.38" provider-name="harryberlin">
+  <!--
+    Add-on definitions.
+    reference: http://kodi.wiki/view/Add-on_settings (root http://kodi.wiki/view/Add-on_development)
+
+    This plugin is both a service (automatic start up) -and a script (callable)
+
+	Service starts on XBMC/KODI startup. Service plugin can be found through:
+	"Settings -> Addons -> enabled add-ons > services -> Raspberry Pi BMW Infotainment"
+
+	Script usually appears as "launch" button under settings (in our case it's called internally).
+	"Settings -> Addons -> enabled add-ons -> ... -> Raspberry Pi BMW Infotainment.
+
+	Repository for automatic updates. Ref: http://kodi.wiki/view/HOW-TO:Create_a_repository_for_add-ons
+-->
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.service" start="login" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <summary lang="en">IBus Communication for BMW</summary>
+    <description lang="en">Addon for controlling Raspberry Pi with original BMW (E46, E39, ...) with Professional Navigation System. Radio BM24, BM54 and 16:9 Bordscreen.</description>
+    <forum>http://www.bmwraspcontrol.de/board/showthread.php?tid=295</forum>
+    <email>christian383@arcor.de</email>
+    <source>not released at the moment</source>
+  </extension>
+</addon>
+
+    <addon id="repository.harryberlin" name="[COLOR red]harryberlin[/COLOR]'s Add-ons" version="1.0.0" provider-name="harryberlin">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR red]harryberlin[/COLOR]'s Add-ons">
+            <info compressed="false">https://github.com/harryberlin/repository.harryberlin/raw/master/addons.xml</info>
+            <checksum>https://github.com/harryberlin/repository.harryberlin/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/harryberlin/repository.harryberlin/raw/master/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Install harryberlin's Add-ons</summary>
+            <description>Download and install addons by harryberlin</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.reliableresume" name="Reliable Resume" version="1.0.0" provider-name="devkid/stanley87/harryberlin">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"></extension>
+  <extension point="xbmc.service" library="observer.py" start="login"></extension>
+  <extension point="xbmc.service" library="default.py" start="login"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Resumes the last played media.</summary>
+    <description lang="en">Resumes the last played media reliably by saving the current media position persisently every couple of seconds (configurable). Therefore it also works when the system gets turned off by power loss. Based von ResumeX by stanley87.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>

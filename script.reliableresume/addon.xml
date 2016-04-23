@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="script.reliableresume" name="Reliable Resume" version="1.0.0" provider-name="devkid/stanley87/harryberlin">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"></extension>
+  <extension point="xbmc.service" library="observer.py" start="login"></extension>
+  <extension point="xbmc.service" library="default.py" start="login"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Resumes the last played media.</summary>
+    <description lang="en">Resumes the last played media reliably by saving the current media position persisently every couple of seconds (configurable). Therefore it also works when the system gets turned off by power loss. Based von ResumeX by stanley87.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
