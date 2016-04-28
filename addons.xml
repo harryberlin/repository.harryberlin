@@ -46,37 +46,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.script.rearcam" name="RearCam for Kodi" version="0.1.0" provider-name="harryberlin">
-  <requires>
-    <import addon="xbmc.python" version="2.19.0" />
-    <import addon="xbmc.gui" version="5.3.0" />
-    <import addon="xbmc.addon" version="14.0.0" />
-    <import addon="script.module.pil" version="1.1.7" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-    <provides>image</provides>
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="login" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Display 6 Security Cameras</summary>
-    <summary lang="de">Zeige 6 Sicherheitskameras an</summary>
-    <description lang="en">Display 6 Security Cameras</description>
-    <description lang="de">Zeige 6 Sicherheitskameras an</description>
-    <platform>linux</platform>
-    <language>en</language>
-    <language>de</language>
-    <license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</license>
-    <forum>
-      <!-- http://www.xbmcnerds.com/index.php?page=Thread&threadID=32671 -->
-    </forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
     <addon id="repository.harryberlin" name="[COLOR red]harryberlin[/COLOR]'s Add-ons" version="1.0.0" provider-name="harryberlin">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>

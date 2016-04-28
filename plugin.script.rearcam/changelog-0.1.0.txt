@@ -1,2 +1,0 @@
-[B]v0.1.0 (Oct 24, 2013)[/B]
-- Initial release
