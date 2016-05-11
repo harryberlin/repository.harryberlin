@@ -3,6 +3,10 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v0.1.40[/B]
+- OBC wird nach Zündung Stufe 0 > 1 oder 1 > 2 aktualisiert
+- Test mit andern IBUSSettings
+
 [B]v0.1.39[/B]
 - wieder kleine Anpassungen
 
