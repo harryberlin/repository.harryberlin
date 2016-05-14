@@ -46,6 +46,21 @@
   </extension>
 </addon>
 
+<addon id="plugin.script.mtpconnect" name="MTP Connect" version="0.1.0" provider-name="harryberlin">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <summary lang="en">Addon for Android MTP Devices</summary>
+    <description lang="en">Addon to connect an Android MTP Device</description>
+    <forum>---</forum>
+    <email>---</email>
+    <source>not released at the moment</source>
+  </extension>
+</addon>
+
     <addon id="repository.harryberlin" name="[COLOR red]harryberlin[/COLOR]'s Add-ons" version="1.0.0" provider-name="harryberlin">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
