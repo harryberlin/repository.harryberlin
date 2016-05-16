@@ -3,6 +3,15 @@
   BMWRaspControl - HelgeInterface Addon by harryberlin, Derhelge
                                                                                           
 ==========================================================================================
+[B]v0.1.9[/B] by [COLOR red]harryberlin[/COLOR]
+- delete Log Files
+
+[B]v0.1.8[/B] by [COLOR red]harryberlin[/COLOR]
+- ObcValue Property on ID 10000
+- new fanart
+- added OBC Screen
+- open with this command: RunScript(plugin.script.bmwraspcontrol, obc)
+
 [B]v0.1.7[/B] by [COLOR red]harryberlin[/COLOR]
 - Betaversion update only with pw
 
