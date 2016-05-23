@@ -1,3 +1,6 @@
+[B]1.0.1[/B]
+- bugfix for play error message after restart, by missing media files
+
 [B]1.0.0[/B]
 - added setting to write all medias to music playlist
 

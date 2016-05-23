@@ -3,6 +3,9 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v0.1.43[/B]
+- Setting zum Zeitbereich setzen, in dem das Welcome/Leaving-Light nicht aktivert wird.
+
 [B]v0.1.42[/B]
 - bugfix für MFL Steuerung
 - andere IBUSSettings
