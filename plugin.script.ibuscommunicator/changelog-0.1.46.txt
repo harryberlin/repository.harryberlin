@@ -3,6 +3,13 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v0.1.46[/B]
+- Setting für Leaving Light on, wenn Zündung aus
+
+[B]v0.1.45[/B]
+- CD Mode Erkennung für E85
+- bugfix prev/next Taste, wenn Pi deaktiviert
+
 [B]v0.1.44[/B]
 - Bugfix für Radio-Modes
 - Info-Nachrichten bei Türen, Fenster, Heckklappe, Motorhaube oder ZV auf/zu
