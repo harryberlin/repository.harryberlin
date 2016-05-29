@@ -16,7 +16,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="0.1.43" provider-name="harryberlin">
+<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="0.1.44" provider-name="harryberlin">
   <!--
     Add-on definitions.
     reference: http://kodi.wiki/view/Add-on_settings (root http://kodi.wiki/view/Add-on_development)

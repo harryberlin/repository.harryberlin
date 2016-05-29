@@ -3,6 +3,11 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v0.1.44[/B]
+- Bugfix für Radio-Modes
+- Info-Nachrichten bei Türen, Fenster, Heckklappe, Motorhaube oder ZV auf/zu
+- Settings zum abschalten des Welcome Lichts, wenn Tür geöffnet wird.
+
 [B]v0.1.43[/B]
 - Setting zum Zeitbereich setzen, in dem das Welcome/Leaving-Light nicht aktivert wird.
 
