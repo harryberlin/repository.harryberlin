@@ -3,6 +3,13 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v0.1.47[/B]
+- Popup oben links, wenn MFL Steuerung aktiviert ist. (buggy)
+- DSP kann nach Aktivierung des COAX(CD) wieder auf TUNER zurückgeschalten werden.
+- einige Änderungen an der IBus-Klasse
+- Info-Nachrichten bei Schiebedach auf/zu
+
+
 [B]v0.1.46[/B]
 - Setting für Leaving Light on, wenn Zündung aus
 
