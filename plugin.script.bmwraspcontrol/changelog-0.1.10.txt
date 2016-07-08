@@ -3,6 +3,11 @@
   BMWRaspControl - HelgeInterface Addon by harryberlin, Derhelge
                                                                                           
 ==========================================================================================
+[B]v0.1.10[/B] by [COLOR red]harryberlin[/COLOR]
+- added method for track title to ike
+  not working at the moment
+  function to send json to HI is missing
+
 [B]v0.1.9[/B] by [COLOR red]harryberlin[/COLOR]
 - delete Log Files
 

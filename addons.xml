@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.script.bmwraspcontrol" name="BMWRaspControl" version="0.1.9" provider-name="harryberlin, Derhelge">
+<addon id="plugin.script.bmwraspcontrol" name="BMWRaspControl" version="0.1.10" provider-name="harryberlin, Derhelge">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
