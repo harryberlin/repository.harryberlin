@@ -3,6 +3,9 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v0.1.49[/B]
+- bugfix für CIS-Mode
+
 [B]v0.1.48[/B]
 - Audio Mode für CIS hinzugefügt. Am CIS muss die Emulation aktiv sein.
 
