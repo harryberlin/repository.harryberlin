@@ -3,8 +3,8 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
-[B]v0.1.50[/B]
-- Setting dass Willkommenstext(wird nur bei Zündung ein angezeigt) wieder verschwindet. 
+[B]v1.0.0[/B]
+- komplettes addon umprogrammiert
 
 [B]v0.1.49[/B]
 - bugfix für CIS-Mode
