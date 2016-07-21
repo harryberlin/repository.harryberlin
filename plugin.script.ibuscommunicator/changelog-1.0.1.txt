@@ -3,8 +3,13 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.0.1[/B]
+- Tippblinken ist als neues Feature hinzugekommen
+
 [B]v1.0.0[/B]
 - komplettes addon umprogrammiert
+- Option zum ansteuern der GPIO mit MFL Volume Up/Down Tasten für Gear Shift. <-- Wunsch vom User "Oberst_Klink_13"
+- Setting für Scrollgeschwindigkeit des Textes im IKE Display
 
 [B]v0.1.49[/B]
 - bugfix für CIS-Mode
