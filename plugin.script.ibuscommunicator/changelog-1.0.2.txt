@@ -3,8 +3,14 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.0.2[/B]
+- PDC Screen endlich inplementiert (.xml muss in skin folder kopiert werden)
+- MFL Popup geändert (.xml muss in skin folder kopiert werden)
+- Properties umbenannt, damit keine Überschneidungen entstehen
+
 [B]v1.0.1[/B]
 - Tippblinken ist als neues Feature hinzugekommen
+- log file kann mit button im settings menü kopiert werden
 
 [B]v1.0.0[/B]
 - komplettes addon umprogrammiert
