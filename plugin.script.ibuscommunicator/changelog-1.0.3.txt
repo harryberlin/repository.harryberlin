@@ -3,6 +3,11 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.0.3[/B]
+- installscript für skinfiles
+- setting für pdc zum ausschalten, nach timeout
+- einige anpassungen vom IBus
+
 [B]v1.0.2[/B]
 - PDC Screen endlich inplementiert (.xml muss in skin folder kopiert werden)
 - MFL Popup geändert (.xml muss in skin folder kopiert werden)
