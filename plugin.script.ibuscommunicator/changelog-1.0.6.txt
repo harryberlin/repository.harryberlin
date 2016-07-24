@@ -3,6 +3,10 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.0.6[/B]
+- Tippblinken für E46 integriert (noch nicht getestet)
+- IBus senden geändert
+
 [B]v1.0.5[/B]
 - neues icon
 
