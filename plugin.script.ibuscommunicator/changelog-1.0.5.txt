@@ -3,8 +3,14 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.0.5[/B]
+- neues icon
+
 [B]v1.0.4[/B]
 - toggling für addonsettings-fenster bei aufruf des addons
+- bugfix pdc
+- bugfix skin file install script
+- bugfix button 1-6 release event für cis mode
 
 [B]v1.0.3[/B]
 - installscript für skinfiles
