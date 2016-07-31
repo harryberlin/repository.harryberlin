@@ -3,9 +3,16 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.0.7[/B]
+- Welcome Events(Licht / Spiegel ausklappen) können nach dem Hochfahren des Pi deaktiviert werden. Dann erscheint nur die Nachricht im IKE.
+- Anpassungen Tippblinken für E46
+- Drehzahl und Geschwidigkeit wird im OBC Screen angezeigt.
+
 [B]v1.0.6[/B]
 - Tippblinken für E46 integriert (noch nicht getestet)
+- Offsetwert für dim level des LCM
 - IBus senden geändert
+
 
 [B]v1.0.5[/B]
 - neues icon
