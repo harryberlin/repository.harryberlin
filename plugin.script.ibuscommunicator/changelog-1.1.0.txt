@@ -3,16 +3,29 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.1.0[/B]
+- ZV Auto Lock abhängig von Geschwindigkeit
+
+[B]v1.0.9[/B]
+- Abbiegelicht optimiert
+- Audio-Lücke 1s bei next/prev Track behoben
+
+
+[B]v1.0.8[/B]
+- Anpassungen für Kodi MFL Steuerung
+- Abbiegelicht beim Blinken: nur Modelle mit LCM, Licht an, über Setting aktivierbar.(Testphase)
+- bugfix für TV-Mode
+
 [B]v1.0.7[/B]
 - Welcome Events(Licht / Spiegel ausklappen) können nach dem Hochfahren des Pi deaktiviert werden. Dann erscheint nur die Nachricht im IKE.
 - Anpassungen Tippblinken für E46
 - Drehzahl und Geschwidigkeit wird im OBC Screen angezeigt.
+- Befehle der Tasten 1-6 für addon simple playlist sind mit aufgenommen.
 
 [B]v1.0.6[/B]
 - Tippblinken für E46 integriert (noch nicht getestet)
 - Offsetwert für dim level des LCM
 - IBus senden geändert
-
 
 [B]v1.0.5[/B]
 - neues icon
@@ -41,6 +54,8 @@
 - komplettes addon umprogrammiert
 - Option zum ansteuern der GPIO mit MFL Volume Up/Down Tasten für Gear Shift. <-- Wunsch vom User "Oberst_Klink_13"
 - Setting für Scrollgeschwindigkeit des Textes im IKE Display
+
+--------------------------------------------------------------------------------------------------------------------
 
 [B]v0.1.49[/B]
 - bugfix für CIS-Mode
