@@ -3,8 +3,13 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.1.3[/B]
+- bugfix TextScrolling im IKE Display
+- pySerial integriert, keine Installation mehr notwendig
+
 [B]v1.1.2[/B]
 - ZV Auto Unlock in Getriebeposition 'P'
+- ZV Auto Unlock beim Öffnen einer Tür
 
 [B]v1.1.1[/B]
 - Toggle zwischen Navikarte und Audio Screen mit MFL R/T Taste unter Car Features
