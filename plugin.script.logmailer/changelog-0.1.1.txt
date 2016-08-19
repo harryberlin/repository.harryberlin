@@ -1,0 +1,11 @@
+﻿==========================================================================================
+
+  Log Mailer for BMWRaspControl & IBusCommunicator
+                                                                                          
+==========================================================================================
+[B]v0.1.1[/B]
+- added mail function
+- IBusCommunicator is implemented
+
+[B]v0.1.0[/B]
+- Initial development version
