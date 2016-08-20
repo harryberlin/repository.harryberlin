@@ -1,0 +1,4 @@
+All these files are part of Kodi Addon "plugin.script.logmailer" by harryberlin
+It's free software. Don't use comercial without agreement by the owner harryberlin.
+
+URL: http://www.bmwraspcontrol.de/board/

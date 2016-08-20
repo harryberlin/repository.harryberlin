@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- 
+	Settings for this  add-on/plugin/script/service???
+	Reference: http://kodi.wiki/view/Add-on_settings 
+-->
+<settings>
+  <category label="Settings">
+    <setting label="E-Mail Settings" type="lsep" />
+    <setting label="E-Mail Adress" id="mail_adress" type="text" default="" />
+    <setting label="Login Name:" id="mail_out_user" type="text" default="" />
+    <setting label="Login Password:" id="mail_out_password" enable="!eq(-1,)" type="text" option="hidden" default="" />
+    <setting label="SMTP Server" id="mail_out_server" type="text" default="" />
+    <setting label="SMTP Port" id="mail_out_port" type="number" default="587" visible="!eq(2,1)" />
+    <setting label="SMTP Port (SSL)" id="mail_out_ssl_port" type="number" default="465" visible="eq(1,1)" />
+    <setting label="SMTP Security" id="mail_out_secure" type="enum" values="None|SSL|STARTTLS" />
+    <setting label="Log File" type="lsep" />
+    <setting label="Mode" id="mail_log_mode" type="enum" values="BMWRaspControl - Helgeinterface|IBusCommunicator" />
+    <setting_off label="BMWRaspControl - Helgeinterface" id="mail_helgeinterface_log" type="bool" default="false" />
+    <setting_off label="IBusCommunicator" id="mail_ibuscommunicator_log" type="bool" default="false" />
+  </category>
+  <category label="Send Log">
+    <setting label="Are you sure, all settings are set?" type="lsep" />
+    <setting label="Send Log File" type="action" action="RunScript(plugin.script.logmailer, send_logfile)" enable="true" visible="true" option="close" />
+  </category>
+</settings>
