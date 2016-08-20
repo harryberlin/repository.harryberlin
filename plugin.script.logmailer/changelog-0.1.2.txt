@@ -3,6 +3,10 @@
   Log Mailer for BMWRaspControl & IBusCommunicator
                                                                                           
 ==========================================================================================
+[B]v0.1.2[/B]
+- added SSL Connection
+- if password settings is empty, the addon asks on Connection for password
+
 [B]v0.1.1[/B]
 - added mail function
 - IBusCommunicator is implemented
