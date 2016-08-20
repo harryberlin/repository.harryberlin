@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.script.logmailer" name="Log Mailer" version="0.1.3" provider-name="harryberlin">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <summary lang="en">Addon for BMWRaspControl &amp; IBusCommunicator</summary>
+    <description lang="en">Addon for BMWRaspControl HelgeInterface</description>
+    <forum>http://www.bmwraspcontrol.de/board/</forum>
+    <email>---</email>
+    <source>inside</source>
+  </extension>
+</addon>
