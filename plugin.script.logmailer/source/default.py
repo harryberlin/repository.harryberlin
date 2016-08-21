@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# print 'net@net.net'.encode('base64', 'strict')
+# print 'bmV0QG5ldC5uZXQ='.decode('base64', 'strict')
+
 import os
 import sys
 import xbmc, xbmcgui, xbmcaddon
@@ -197,13 +200,11 @@ def main():
         elif str(given_args[0]) == "settings":
             open_settings()
         else:
-            print ('Unknown Arguments given!')
+            note('Unknown Arguments given!')
 
     else:
         open_settings()
 
 
 if __name__ == '__main__':
-    #print 'net@net.net'.encode('base64', 'strict')
-    #print 'bmV0QG5ldC5uZXQ='.decode('base64', 'strict')
     main()

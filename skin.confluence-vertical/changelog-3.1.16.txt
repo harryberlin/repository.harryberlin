@@ -1,0 +1,101 @@
+[B]3.1.16[/B]
+- changed size keyboard
+- changed size and top/bottom button events
+- added repo update button on addonbrowser
+- added subtitle dialog from original confluence skin
+
+[B]3.1.15[/B]
+- slide busybox above notificationbox, when shown
+
+[B]3.1.14[/B]
+- added PDC Images 
+- OBC Labels moved to top
+
+[B]3.1.13[/B]
+- Property for HI_VER is now set to Skin 1150 (OBC)
+- added to HomeMenu the old item for OBC. visible when the addon is activ
+- added to HomeMenu a item for BluetoothPlayer. visible when the addon is activ.
+- small edits on skin update script
+
+[B]3.1.7[/B]
+- dialog yes no increased with zoom
+- changed radiobutton and script for Tether Wifi on/off
+- added update script for Helgeinterface
+
+[B]3.1.6[/B]
+- added some scripts
+- added Buttons to turn wifi tethering on/off under skin raspcontrol settings
+
+[B]3.1.5[/B]
+
+- Date format on Home Screen = dd.mm.yyyy
+- M Stripe on left Sideblade, when M Logo is visible
+
+[B]3.1.4[/B]
+
+- contextmenu for filemanager
+- increased the font in filemanager
+
+[B]3.1.3[/B]
+
+- added setting to choose the pdc car for background
+- now textcolor orange is bmwamber 255,126,000
+
+[B]3.1.2[/B]
+
+- Player controls has an own window
+- PDC dialog is finshed
+- added Skin Update Button. BIG THANKS!!! to Horst12345
+- started to interate the OBC Functions
+
+[B]3.1.1[/B]
+
+- added Player controls to Home Menu
+
+[B]3.1.0[/B]
+
+- pre added a custom pdc skin and pdc image files
+- included all new image files to textures.xbt
+
+[B]3.1.0[/B]
+
+- changes coming soon...
+
+[B]2.1.0[/B]
+
+- Changed the home menu to Horizontal Layout instead of Vertical
+- Added support for the TvTunes Addon enable it in skin settings\General (if you have it installed)
+- Added support for the Weather+ script (install it and select it in weather settings)
+- Updated translation files
+- Added some more codec flagging images (eg: pcm_bluray, wav files, etc)
+- Added Visual notification in Add-on Thumbnail view if an add-on is broken
+
+[B]2.0.0[/B]
+
+- Bumped the skin version up for the major change to eden branch
+
+[B]1.2.0[/B]
+
+- All media views now follow a similar layout off File List on the Left hand side and icons/data on the right
+- Views are all now in content panels (no fullscreen black)
+- Added a thumb view for addons
+- Non full screen Now Playing Media info (Bottom left) has more info
+- Full screen Now Playing Media info trimmed down
+- Fullscreen Player controls changed
+- Media windows side menu is completely redesigned (and also lower case)
+- Added a "filter" button to all media windows
+- Added Filter (BLAH) text to the item/page count bottom right
+- Removed the Disc Play button from home (which relies on !System.HasMediaDVD to appear)
+- Repositioned the seekbar from lower right to upper right
+
+[B]1.1.0[/B]
+
+- Redesigned the video and Music OSD Info and controls
+- Added more images for codec flagging on videos and audio
+- Added all the windows needed for the new Addon Browser
+- Removed the right hand side bar graphic from all windows and only made the left hand one visible if a menu is there
+- Lots of other little changes
+
+[B]1.0.0[/B]
+
+- Initial Commit to the SVN
