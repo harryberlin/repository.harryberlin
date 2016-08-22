@@ -1,6 +1,6 @@
 [B]3.1.16[/B]
 - changed size keyboard
-- changed size and top/bottom button events
+- changed size and top/bottom button events on addonsettings
 - added repo update button on addonbrowser
 - added subtitle dialog from original confluence skin
 
