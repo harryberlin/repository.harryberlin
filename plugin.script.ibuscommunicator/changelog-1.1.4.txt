@@ -3,6 +3,9 @@
   IBusCommunicator by harryberlin
                                                                                           
 ==========================================================================================
+[B]v1.1.4[/B]
+- stoppt Textanzeige im IKE bei MFL prev/next hold 
+
 [B]v1.1.3[/B]
 - bugfix TextScrolling im IKE Display
 - pySerial integriert, keine Installation mehr notwendig
