@@ -16,7 +16,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="1.1.6" provider-name="harryberlin">
+<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="1.1.7" provider-name="harryberlin">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -93,7 +93,7 @@
   </extension>
 </addon>
 
-<addon id="skin.confluence-vertical" version="3.1.16" name="Confluence BMW" provider-name="Jezz_X, Team XBMC">
+<addon id="skin.confluence-vertical" version="3.1.17" name="Confluence BMW" provider-name="Jezz_X, Team XBMC">
   <requires>
     <import addon="xbmc.gui" version="3.00" />
     <import addon="xbmc.python" version="2.1.0" />
