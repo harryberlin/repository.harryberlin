@@ -1,3 +1,7 @@
+[B]3.1.17[/B]
+- home edited for bmwraspcontrol addon
+- all properties changed to 10000
+
 [B]3.1.16[/B]
 - changed size keyboard
 - changed size and top/bottom button events on addonsettings
