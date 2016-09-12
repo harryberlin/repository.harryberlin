@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.script.bmwraspcontrol" name="BMWRaspControl" version="0.1.12" provider-name="harryberlin, Derhelge">
+<addon id="plugin.script.bmwraspcontrol" name="BMWRaspControl" version="0.1.13" provider-name="harryberlin, Derhelge">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Addon for BMWRaspControl HelgeInterface</summary>
+    <description lang="en">Addon for BMWRaspControl HelgeInterface</description>
+    <platform>linux</platform>
+    <forum>http://www.bmwraspcontrol.de/board/</forum>
+    <email>---</email>
+    <source>not released at the moment</source>
+  </extension>
+</addon>
+
+<addon id="plugin.script.helgeinterface" name="HelgeInterface" version="0.1.13" provider-name="harryberlin, Derhelge">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
   <extension point="xbmc.python.script" library="default.py" />
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Addon for BMWRaspControl HelgeInterface</summary>
-    <description lang="en">Addon for BMWRaspControl HelgeInterface</description>
+    <summary lang="en">Addon for HelgeInterface</summary>
+    <description lang="en">Addon for HelgeInterface</description>
     <platform>linux</platform>
     <forum>http://www.bmwraspcontrol.de/board/</forum>
     <email>---</email>
@@ -93,7 +108,7 @@
   </extension>
 </addon>
 
-<addon id="skin.confluence-vertical" version="3.1.17" name="Confluence BMW" provider-name="Jezz_X, Team XBMC">
+<addon id="skin.confluence-vertical" version="3.1.18" name="Confluence BMW" provider-name="Jezz_X, Team XBMC">
   <requires>
     <import addon="xbmc.gui" version="3.00" />
     <import addon="xbmc.python" version="2.1.0" />

@@ -1,0 +1,58 @@
+==========================================================================================
+
+  BMWRaspControl - HelgeInterface Addon by harryberlin, Derhelge
+                                                                                          
+==========================================================================================
+[B]v0.1.13[/B] by [COLOR red]harryberlin[/COLOR]
+- renamed BMWRaspControl to HelgeInterface
+- added Settings: CorneringTime, ShowPiStateByBoardMonitorLed
+
+[B]v0.1.12[/B] by [COLOR red]harryberlin[/COLOR]
+- changed OBC for easier handling
+
+[B]v0.1.11[/B] by [COLOR green]DerHelge[/COLOR]
+- json function for HI integrated
+
+[B]v0.1.10[/B] by [COLOR red]harryberlin[/COLOR]
+- added method for track title to ike
+  not working at the moment
+  function to send json to HI is missing
+
+[B]v0.1.9[/B] by [COLOR red]harryberlin[/COLOR]
+- delete Log Files
+
+[B]v0.1.8[/B] by [COLOR red]harryberlin[/COLOR]
+- ObcValue Property on ID 10000
+- new fanart
+- added OBC Screen
+- open with this command: RunScript(plugin.script.bmwraspcontrol, obc)
+
+[B]v0.1.7[/B] by [COLOR red]harryberlin[/COLOR]
+- Betaversion update only with pw
+
+[B]v0.1.6[/B] by [COLOR red]harryberlin[/COLOR]
+- added Setting for Hour Offset
+
+[B]v0.1.5[/B] by [COLOR red]harryberlin[/COLOR]
+- added HelgeInterface Update
+
+[B]v0.1.4[/B] by [COLOR red]harryberlin[/COLOR]
+- changed busybox
+- changed full xml parsing code
+- renamed settings for parsing easy
+- TODO error handling, on miss settings
+
+[B]v0.1.3[/B] by [COLOR green]DerHelge[/COLOR]
+- Busybox added
+- automatic restart of HelgeInterface
+
+[B]v0.1.2[/B]
+- edited Settings
+- resized Fanart
+
+[B]v0.1.1[/B]
+- added settings
+- added script to write HelgeInterface config xml file
+
+[B]v0.1.0[/B]
+- Initial development version.
