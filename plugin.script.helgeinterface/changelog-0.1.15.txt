@@ -3,6 +3,13 @@
   BMWRaspControl - HelgeInterface Addon by harryberlin, Derhelge
                                                                                           
 ==========================================================================================
+[B]v0.1.15[/B] by [COLOR red]harryberlin[/COLOR]
+- info about image version on settings sub menu Extra's
+
+[B]v0.1.14[/B] by [COLOR red]harryberlin[/COLOR]
+- write info to kodi log file, when settings changed
+- on carmodel e46 or e83, addon don't send tracktitle
+
 [B]v0.1.13[/B] by [COLOR red]harryberlin[/COLOR]
 - renamed BMWRaspControl to HelgeInterface
 - added Settings: CorneringTime, ShowPiStateByBoardMonitorLed
