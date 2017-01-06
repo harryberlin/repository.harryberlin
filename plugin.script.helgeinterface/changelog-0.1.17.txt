@@ -3,8 +3,17 @@
   BMWRaspControl - HelgeInterface Addon by harryberlin, Derhelge
                                                                                           
 ==========================================================================================
+[B]v0.1.17[/B] by [COLOR red]harryberlin[/COLOR]
+- bugfix ImageVersion.txt
+- bugfix HelgeInterface Update
+
+[B]v0.1.16[/B] by [COLOR red]harryberlin[/COLOR]
+- bugfix eINFO0 and enableTimeFactor 20s
+- Addon Setting for TrackTitle to IKE Display (von romi gewünscht)
+
 [B]v0.1.15[/B] by [COLOR red]harryberlin[/COLOR]
 - info about image version on settings sub menu Extra's
+- prepared for copying log files
 
 [B]v0.1.14[/B] by [COLOR red]harryberlin[/COLOR]
 - write info to kodi log file, when settings changed
