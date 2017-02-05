@@ -31,15 +31,14 @@
   </extension>
 </addon>
 
-<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="1.3.0" provider-name="harryberlin">
+<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="1.3.1" provider-name="harryberlin">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
   <extension point="xbmc.python.script" library="default.py" />
   <extension point="xbmc.service" start="login" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <platform>linux</platform>
-    <platform>windx</platform>
+    <platform>linux windx</platform>
     <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
     <summary lang="en">IBus Communication for BMW</summary>
     <description lang="en">Addon for controlling Raspberry Pi with original BMW (E46, E39, E53,...) with Professional Navigation System. Radio BM24, BM54 and 16:9 Bordscreen.</description>

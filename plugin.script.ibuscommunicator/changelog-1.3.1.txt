@@ -1,0 +1,437 @@
+﻿==========================================================================================
+ 
+  IBusCommunicator by harryberlin
+
+==========================================================================================
+[B]v1.3.1[/B]
+- Bugfix Benachrichtigung der BM Taste 1-6 in Aux Mode
+- Bugfix Connect
+- Erste Anpassungen für Tagfahrlicht (bitte Welcomelicht testen)
+- Test Dimmlevel
+- keine Funktion für MFL UP/DOWN wenn R/T aktiv
+- Umstellung auf Mehrsprachig
+- Bugfix Verbindungsaufbau
+- Shutdowntimer für Kodi bei ZV Verriegelung
+- Test für ZV-Selektiv
+- Ansteuerung Standheizung mit FFB Lock hold
+- BM24 telegramme hinzugefügt
+
+[B]v1.3.0[/B]
+- Lautstärke vom BMW Radio kann beim einlegen des Rückwärtsganges abgesenkt werden
+- Lautstärke Setting für Geschwindigkeit ist dazu gekommen
+- erste Tests für MID Support
+- Addon Startsequence umgestellt
+- weitere log-Nachrichten für Verbindungsaufbau hinzugefügt
+- Bugfix Außentemp im OBC Screen rechts unten
+- Bugfix Titleanzeige im IKE Display
+- Bugfix Lautstärke absenken
+- Distanze und Limit können im OBC eingestellt werden
+- Bugfix OBC
+- Weitere OBC Informationen hinzugefügt
+- Standheizung und -lüftung wird für OBC-Menü automatisch angezeigt, wenn vorhanden.
+- Werte setzen im OBC für Timer 1 + 2 der Standheizung und -lüftung integriert
+- erste Schritte für Unterstützung von Windows
+- einige Bugfixes zum bereinigen des Speichers
+- Icon für Memo, Limit, Aux-Vent, Aux-Heat
+- Icon für Timer 1/2
+- Bugfix für Abbiegelicht in Abhängigkeit zur Geschwindigkeit
+- Anpassung OBC Screen für Touchscreens
+- Skin für Krypton (Kodi17) skin.confluence-bmw vorbereitet
+- Skin für skin.carpc-xtouch aus RaspPiCar von Jack erstellt
+- Erweiterung des OBC Skin für Click/Touch
+- zwei neue Setting-Buttons zum Zeit und Datum vom Fahrzeug zu setzen.
+- FlashToPass nur wenn Abblendlicht aus ist.
+- einige OBC Skinanpassungen
+- Bugfix tcp verbindung
+- Bugfix clear to send watcher
+- Preload-Animation bei OBC Aufruf
+- Bugfix Dimlevel der Innenraumbeleuchtung
+
+[B]v1.2.9[/B]
+- log Dateien werden nun richtig kopiert, abhängig vom setting write log to kodi
+- logfiles werden nun beim Kopieren gezippt
+- kurze Verzögerung 0,3s für FlashToPass aus
+- Setting für PDC Refreshrate
+- Schalten mit MFL UP/DOWN nun schon bei Druck der Tasten.
+- bei aktivem Setting für RearCam-Relais, wird auch der VideoModul-Eingang aktiviert.
+- RearCam Relais kann jetzt ohne aktiven PDC Setting genutzt werden.
+  Verweilzeit oder Geschwindigkeit zum Aussschlalten (nach Auslegen des R-Ganges) ist als Setting hinzu gekommen.
+  Bei nicht erreichen der eingestellten Geschwindigkeit, wird nach 60s abgeschalten.
+- Programmcode etwas aufgeräumt
+- Setting zum Absenken der Lautstärke beim Einlegen des Rückwärtsganges
+- LCD Helligkeit kann bei Einschalten des Lichtes verändert werden.
+- Tippblinken Interval 2 hinzugefügt
+- Speedsettings für Auto Zoom der Navigationskarte
+- IKE Display Settings zu Main verschoben. Nur aktiv, wenn CarModel E38,E39,E53 ausgewählt ist.
+
+[B]v1.2.8[/B]
+- Änderung für Spiegelanklappen
+- GearShift nun für MFL Volume oder Track Buttons.
+- CDCH prev/next nun mit 94/95 und 98/99
+- log in eigene dateien in den addon-settings pfad
+  "/home/osmc/.kodi/userdata/addon_data/plugin.script.ibuscommunicator/logfiles"
+- simulate IBusMessages to addon through TCP, to test the functions
+  echo -n "simulateibus;80 05 BF 18 10 00 CK" | nc 0.0.0.0 8089
+- E46 FlashToPass Bugfix
+- E46 ZV Lock/Unlock Bugfix
+- E46 Welcomelights Bugfix
+
+[B]v1.2.7[/B]
+- Änderung für Spiegelanklappen
+- GPIO7 Bug behoben
+
+[B]v1.2.6[/B]
+- GPIO für Rearcam-Relais-Ansteuerung integriert (ungetestet)
+- TCP Port für interene Kommunikation kann geändert werden
+- Bugfix für Spiegel anklappen versucht
+- Ansteuerung der Radio LED für Mode Always
+- Vorbereitung für weitere Tasten in Mode Always
+- FFB Events erweitert für evtl. spätere Hold events.
+- Anpassungen für Play/Pause
+- Standheizung und Lüftung im OBC
+  [COLOR red](WER KEINE HEIZUNG HAT, NICHT VERWENDEN!!!)[/COLOR]
+- IBus Writing angepasst
+- Bugfix MFL GearShift Function
+
+[B]v1.2.5[/B]
+- Mode ALWAYS hinzugefügt für CarPCs oder CIS ohne NAV, RAD, VID
+
+[B]v1.2.4[/B]
+- Änderungen IBUS lesen weil LC4Hunter Probleme hat (leider nicht nachvollziehbar)
+- Welcome/Leaving Lichter können nun per Setting gewählt werden
+- andere E-Modelle hinzugefügt
+
+[B]v1.2.3[/B]
+- TCP und IBus Timeout vergrößert
+
+[B]v1.2.2[/B]
+- kleine Änderungen beim IBus-Nachrichten lesen
+- KODI CONTROL mit R/T Taste wird nun dauerhaft im IKE Display angezeigt, wenn man die BC Taste nutzt,
+  um den OBC durchzuschalten
+- IBUS Nachrichten können per TCP gesendet werden. Setting muss aktiv sein.
+  vom terminal mit dem Befehl z.b. (wenn keine Länge oder/und Checksum bekannt, dann muss LL an zweiter Stelle und/oder CK am Ende stehen)
+  echo -n "sendibus;68 LL 80 23 62 30 20 20 20 20 20 20 49 42 75 73 20 54 45 53 54 20 20 20 20 20 CK" | nc 0.0.0.0 8089
+  zeigt im IKE Display "IBus TEST"
+- Bei Verkehrsfunkmeldung pausiert die Wiedergabe (Testphase)
+
+[B]v1.2.1[/B]
+- Gauges im OBC funktionieren
+- Zurück geändert: "ZV lock/unlock bei e39 mit innenraumtaster message"
+- Kodi springt auf Homescreen zurück, bei Zündungsstufe AUS
+- VolumeUp, VolumeDown zu KodiActions hinzugefügt
+
+[B]v1.2.0[/B]
+- bei aktivierter MFL Menüsteuerung kann mit BC Taste der 
+  OBC Screen weitergeschalten werden
+- OBC Informationen erweitert
+
+[B]v1.1.9[/B]
+- STW R/T Event Setting ersetzt die Funktionen für MFL Taste R/T
+- zv lock/unlock bei e39 mit innenraumtaster message
+- Indikatoren für OBC Screen leuchten nun wenn Limit/Memo/Zeit 1/Zeit2 aktiv ist.
+- Flash to Pass für e46
+- service empfängt befehle auf 0.0.0.0:8089
+
+[B]v1.1.8[/B]
+- OBC Funktionen integriert (Reset, Aktivieren, Deaktivieren)
+
+[B]v1.1.7[/B]
+- toggle für OBC skin öffnen/schließen
+- nutzen des Fotosensors vom Bordmonitor für Welcome- und Leavinglight
+- Zeit für Abbiegelicht wird halbiert, nach Dauerblinken
+- OBC Submenüs erstellt
+- OBC Bordspannungsanzeige
+- Flash to pass für Abblendlicht und Nebelscheinwerfer
+
+[B]v1.1.6[/B]
+- OBC ins addon integriert (derzeit nur Anzeige)
+
+[B]v1.1.5[/B]
+- loglevel umbenannt und von labelenum auf enum umgestellt
+- einige settings entfernt
+
+[B]v1.1.4[/B]
+- stoppt Textanzeige im IKE bei MFL prev/next hold 
+
+[B]v1.1.3[/B]
+- Bugfix TextScrolling im IKE Display
+- pySerial integriert, keine Installation mehr notwendig
+
+[B]v1.1.2[/B]
+- ZV Auto Unlock in Getriebeposition 'P'
+- ZV Auto Unlock beim Öffnen einer Tür
+
+[B]v1.1.1[/B]
+- Toggle zwischen Navikarte und Audio Screen mit MFL R/T Taste unter Car Features
+- Bugfix für IKE Textscrolling
+- Bugfix für ZV Auto Lock/Unlock
+- Autozoom für Navigationskarte unter Car Features
+[COLOR yellow]  Ab  30 km/h wird auf 200m Maßstab gestellt
+  Ab  55 km/h wird auf 500m Maßstab gestellt
+  Ab  80 km/h wird auf  1km Maßstab gestellt
+  Ab 120 km/h wird auf  2km Maßstab gestellt
+  Ab 145 km/h wird auf  5km Maßstab gestellt
+
+  Unterschreiten von 140 km/h setzt auf 2km
+  Unterschreiten von 110 km/h setzt auf 1km
+  Unterschreiten von  70 km/h setzt auf 500m
+  Unterschreiten von  45 km/h setzt auf 200m
+  Unterschreiten von  10 km/h setzt auf 100m[/COLOR]
+
+[B]v1.1.0[/B]
+- ZV Auto Lock abhängig von Geschwindigkeit
+
+[B]v1.0.9[/B]
+- Abbiegelicht optimiert
+- Audio-Lücke 1s bei next/prev Track behoben
+
+
+[B]v1.0.8[/B]
+- Anpassungen für Kodi MFL Steuerung
+- Abbiegelicht beim Blinken: nur Modelle mit LCM, Licht an, über Setting aktivierbar.(Testphase)
+- Bugfix für TV-Mode
+
+[B]v1.0.7[/B]
+- Welcome Events(Licht / Spiegel ausklappen) können nach dem Hochfahren des Pi deaktiviert werden. Dann erscheint nur die Nachricht im IKE.
+- Anpassungen Tippblinken für E46
+- Drehzahl und Geschwidigkeit wird im OBC Screen angezeigt.
+- Befehle der Tasten 1-6 für addon simple playlist sind mit aufgenommen.
+
+[B]v1.0.6[/B]
+- Tippblinken für E46 integriert (noch nicht getestet)
+- Offsetwert für dim level des LCM
+- IBus senden geändert
+
+[B]v1.0.5[/B]
+- neues icon
+
+[B]v1.0.4[/B]
+- toggling für addonsettings-fenster bei aufruf des addons
+- Bugfix pdc
+- Bugfix skin file install script
+- Bugfix button 1-6 release event für cis mode
+
+[B]v1.0.3[/B]
+- installscript für skinfiles
+- setting für pdc zum ausschalten, nach timeout
+- einige anpassungen vom IBus
+
+[B]v1.0.2[/B]
+- PDC Screen endlich inplementiert (.xml muss in skin folder kopiert werden)
+- MFL Popup geändert (.xml muss in skin folder kopiert werden)
+- Properties umbenannt, damit keine Überschneidungen entstehen
+
+[B]v1.0.1[/B]
+- Tippblinken ist als neues Feature hinzugekommen
+- log file kann mit button im settings menü kopiert werden
+
+[B]v1.0.0[/B]
+- komplettes addon umprogrammiert
+- Option zum ansteuern der GPIO mit MFL Volume Up/Down Tasten für Gear Shift. <-- Wunsch vom User "Oberst_Klink_13"
+- Setting für Scrollgeschwindigkeit des Textes im IKE Display
+
+--------------------------------------------------------------------------------------------------------------------
+
+[B]v0.1.49[/B]
+- Bugfix für CIS-Mode
+
+[B]v0.1.48[/B]
+- Audio Mode für CIS hinzugefügt. Am CIS muss die Emulation aktiv sein.
+
+[B]v0.1.47[/B]
+- Popup oben links, wenn MFL Steuerung aktiviert ist. (buggy)
+- DSP kann nach Aktivierung des COAX(CD) wieder auf TUNER zurückgeschalten werden.
+- einige Änderungen an der IBus-Klasse
+- Info-Nachrichten bei Schiebedach auf/zu
+
+
+[B]v0.1.46[/B]
+- Setting für Leaving Light on, wenn Zündung aus
+
+[B]v0.1.45[/B]
+- CD Mode Erkennung für E85
+- Bugfix prev/next Taste, wenn Pi deaktiviert
+
+[B]v0.1.44[/B]
+- Bugfix für Radio-Modes
+- Info-Nachrichten bei Türen, Fenster, Heckklappe, Motorhaube oder ZV auf/zu
+- Settings zum abschalten des Welcome Lichts, wenn Tür geöffnet wird.
+
+[B]v0.1.43[/B]
+- Setting zum Zeitbereich setzen, in dem das Welcome/Leaving-Light nicht aktivert wird.
+
+[B]v0.1.42[/B]
+- Bugfix für MFL Steuerung
+- andere IBUSSettings
+
+[B]v0.1.41[/B]
+- Setting für Navigation durch die Menüs mit dem MFL
+
+[B]v0.1.40[/B]
+- OBC wird nach Zündung Stufe 0 > 1 oder 1 > 2 aktualisiert
+- Test mit anderen IBUSSettings
+
+[B]v0.1.39[/B]
+- wieder kleine Anpassungen
+
+[B]v0.1.38[/B]
+- noch etwas an den parametern der letzten Änderung geschraubt
+
+[B]v0.1.37[/B]
+- anderes Timig für Frei zum Senden des IBus
+- IBus Read Error Zähler zu den Settings hinzugefügt.
+
+[B]v0.1.36[/B]
+- neues Setting: Anzeige des Tracktitels separat abwählbar
+
+[B]v0.1.35[/B]
+- Welcomelight aus, wenn der Schlüssel ins Schloss gesteckt wird
+- Bei Freispechanlage ab Werk wird bei benutzen der R/T Taste evtl. Scrolltext im IKE abgebrochen
+
+[B]v0.1.34[/B]
+- PauseBug behoben
+
+[B]v0.1.33[/B]
+- Belegung für "Kurzwahltasten" 1 - 6 auch für Hold hinzugefügt
+- E46 Welcomelight ohne Abblendlicht.
+
+[B]v0.1.32[/B]
+- Auswahl des BMW Types hinzugefügt
+- Belegung der Bordmonitortasten 1 - 6 in CD Mode mit Kodibefehlen per Settings
+
+[B]v0.1.31[/B]
+- Textscrolling optimiert
+- Handling für HighPrio IBus Nachrichten optimiert
+
+[B]v0.1.30[/B]
+- OBC für E46
+
+[B]v0.1.29[/B]
+- Spiegel ein- und ausklappen ist hinzu gekommen
+
+[B]v0.1.28[/B]
+- läuft stabiler als Version 0.1.27
+- Abbruch Welcome-/Leaving-Light mit erneuten Tastendruck auf der FFB
+
+[B]v0.1.27[/B]
+- Welcome- / Leaving-Light bei FFB Betätigung, 
+  Standlicht vorn + hinten eingestellt (keine Garantie)
+  Abbruch ab Zündungsstufe 1
+- Welcomemessage im IKE auch bei Zündung aus zu sehen.
+- OBC für die bekannte skin vorrübergehend eingebaut
+- Pausieren und Resume, wenn ein Anruf reinkommt
+- Coolanttempanzeige im Homescreen möglich (unter Addonsettings "Kodi Controls")
+
+
+[B]v0.1.26[/B]
+- Lesen vom IBus verbessert
+- BM24 Nachrichten integriert
+- Anzeige im IKE bei Nutzung des MFL wird gelöscht
+
+[B]v0.1.25[/B]
+- Test
+
+[B]v0.1.24[/B]
+- Test
+
+[B]v0.1.23[/B]
+- changed log script von "print" zu "xbmc.log()"
+
+[B]v0.1.22[/B]
+- Updating Package Libary, vor Installation von pySerial
+
+[B]v0.1.20[/B]
+- wenige Optimierungen
+
+[B]v0.1.19[/B]
+- Bugfix für MFL Button
+- added BM24 Handling
+
+[B]v0.1.18[/B]
+- Umschalten des TP Menü optimiert
+- Setting zum Invertieren der Richtung des Navigation Drehknopfes ( Up / Down )
+- Doppelklick für Next und Prev Taste des Bordmonitors (für Track vor und zurück)
+  weitere Tasten sind möglich
+
+[B]v0.1.17[/B]
+- neue Methode zum IBus Nachrichten lesen
+- Titelanzeige optimiert
+- Reboot des Pi bei 3s Clock-Hold (aufleuchten der Telefon LEDs)
+
+[B]v0.1.16[/B]
+- log level 5 loggt nur IBus-Nachrichten
+- diverse Bugfixes
+- OK Dialog nach Installation von python-serial
+
+[B]v0.1.15[/B]
+- Random, Scan, Seek Handling für Wechsler-Emulation integriert (Select-Taste)
+- diverse Bugfixes
+- Nav Turnknopf-Event kann nun belegt werden mit Back, Home, ContextMenu
+- Zündschlüssel Stellung wird verarbeitet
+
+[B]v0.1.14[/B]
+- Textanzeige wird gecancelt, wenn BC Knopf gedrückt wird
+- OBC Werte in Vorbereitung
+- Nav Turnknopf Hold kann per Setting als Steuerbefehl Back aktiviert werden
+- log events werden nun als Thread ausgeführt um schneller zu werden
+- log levels definiert
+
+[B]v0.1.13[/B]
+- Sonderzeichen werden im IKE richtig dargestellt
+- Sonderzeichen vom OBC werden richtig dargestellt
+- wenn Kodi mit wiedergabe beginnt, der Pi aber nicht aktiv ist, wird pausiert
+- Bug für Textanzeige behoben
+
+[B]v0.1.12[/B]
+- kleinere Optimierungen
+- Setting DSP aktiv
+- Setting für eigene Willkommensnachricht aktiv
+
+[B]v0.1.11[/B]
+- Verbindungsaufbau nach Start optimiert
+- OBC_OUTTEMP wird angezeigt
+- evtl. Textscrolling wird abgebrochen, wenn der nächste Track beginnt
+
+[B]v0.1.10[/B]
+- Textscrolling läuft soweit gut
+- Setting für Textanzeige unter MAIN hinzugefügt
+
+[B]v0.1.9[/B]
+- Track Text wird auf IKE Display angezeigt
+
+[B]v0.1.8[/B]
+- Bug bei Datum und Zeit behoben
+- 12/24h Zeit-/Datums-Format wird erkannt
+
+[B]v0.1.7[/B]
+- System Datum und Zeit wird vom OBC übernommen
+
+[B]v0.1.6[/B]
+- Welcomelight per Setting
+- IKE Welcomemessage per Setting
+- Sekunden zum verdoppeln der FFWD/FRWD Geschwindigkeit
+- STW NEXT/PREV integriert
+
+[B]v0.1.5[/B]
+- Ansteuerung des GPIO7 statt NTSC(RTS)
+
+[B]v0.1.4[/B]
+- Text "CDC" für CD Mode hinzu
+
+[B]v0.1.3[/B]
+- einige Änderungen zum IBus Nachrichten senden, weil die CD Emulation wieder ausfiel.
+- Welcomelight für E39 integriert. Setting dazu fehlt noch.
+
+[B]v0.1.2[/B]
+- python-serial package wird autom. installiert, wenn es nicht vorhanden ist. 
+  [COLOR red](Internet Verbindung muss bestehen!)[/COLOR]
+- Umschalten bei TP oder TONE Menü optimiert
+
+[B]v0.1.1[/B]
+- RTS funktioniert.
+- Steuerung des Menüs nur wenn der Pi Screen zu sehen ist.
+- Audio/Video wird pausiert, wenn eine andere quelle aktiv ist. 
+  Aber noch etwas buggy
+
+[B]v0.1.0[/B]
+- Initial development version.
