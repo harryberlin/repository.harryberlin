@@ -5,7 +5,6 @@
   </requires>
   <extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-    <datadir zip="true">https://github.com/harryberlin/skin.confluence-bmw/archive/master.zip</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Confluence oortreksel deur Jezz_X. (Kodi se standaard tema)</summary>

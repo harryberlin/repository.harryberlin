@@ -120,7 +120,6 @@
   </requires>
   <extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-    <datadir zip="true">https://github.com/harryberlin/skin.confluence-bmw/archive/master.zip</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="af_ZA">Confluence oortreksel deur Jezz_X. (Kodi se standaard tema)</summary>
@@ -262,24 +261,6 @@
       <screenshot>resources/screenshot-09.jpg</screenshot>
     </assets>
     <news>Fixed home Weather item / Added 'Privacy Policy' to system info / Updated background video conditions</news>
-  </extension>
-</addon>
-
-<addon id="skin.confluence-vertical" version="3.1.18" name="Confluence BMW" provider-name="Jezz_X, Team XBMC">
-  <requires>
-    <import addon="xbmc.gui" version="3.00" />
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
-    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-  </extension>
-  <extension point="xbmc.service" library="scripts/service.playerstate.py" start="login" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Confluence BMW skin. Created originally by Jezz_X [CR]
-Modified by Art Tevs to include supprot for the BMW E38/E39/X5 I-Bus cars.[CR]
-Modifies for BMWRaspControl by harryberlin.</summary>
-    <description lang="en">This is the default Confluence with additional BMW patches skin with the old Horizontal home menu that changed in eden versions of XBMC but includes all the other updates made to the skin.  Confluence is the default skin for XBMC 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time XBMC users to understand and use.</description>
-    <platform>all</platform>
   </extension>
 </addon>
 
