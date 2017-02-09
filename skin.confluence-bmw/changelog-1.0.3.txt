@@ -1,0 +1,8 @@
+[B]1.0.2[/B]
+- changed Keyboard, Numpad und Addonsettings
+
+[B]1.0.1[/B]
+- added ON-BOARD item for Mainmenu
+
+[B]1.0.0[/B]
+- Reference Skin 3.0.45: https://github.com/xbmc/skin.confluence
