@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<addon id="skin.confluence-bmw" version="1.0.5" name="Confluence-BMW" provider-name="Jezz_X, Team Kodi, harryberlin, g1sbert">
+<addon id="skin.confluence-bmw" version="1.0.6" name="Confluence-BMW" provider-name="Jezz_X, Team Kodi, harryberlin, g1sbert">
   <requires>
     <import addon="xbmc.gui" version="5.12.0" />
   </requires>
