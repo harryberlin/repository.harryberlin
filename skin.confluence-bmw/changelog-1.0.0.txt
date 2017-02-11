@@ -1,2 +1,0 @@
-[B]1.0.0[/B]
-- Reference Skin 3.0.45: https://github.com/xbmc/skin.confluence
