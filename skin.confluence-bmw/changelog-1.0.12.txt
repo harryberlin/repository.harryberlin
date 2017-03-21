@@ -1,0 +1,33 @@
+[B]1.0.12[/B]
+- ibus dialog for DRL
+
+[B]1.0.11[/B]
+- bugfix temp label background
+- added addon widgets for main menu submenus
+
+[B]1.0.10[/B]
+- changed Home Sub Menus for Vertical Layout
+
+[B]1.0.9[/B]
+- some more Colorsettings
+- Dim Level for Background
+- MFL und PDC Screen for plugin.script.ibuscommunicator integrated
+
+
+[B]1.0.8[/B]
+- changed Music Fullscreen
+
+[B]1.0.7[/B]
+- some color changes
+
+[B]1.0.6[/B]
+- buggi Vertical Home Menu
+
+[B]1.0.2[/B]
+- changed Keyboard, Numpad und Addonsettings
+
+[B]1.0.1[/B]
+- added ON-BOARD item for Mainmenu
+
+[B]1.0.0[/B]
+- Reference Skin 3.0.45: https://github.com/xbmc/skin.confluence
