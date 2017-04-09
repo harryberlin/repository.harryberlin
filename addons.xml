@@ -37,7 +37,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="1.3.2" provider-name="harryberlin">
+<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="1.3.3" provider-name="harryberlin">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -120,7 +120,7 @@
   </extension>
 </addon>
 
-<addon id="skin.confluence-bmw" version="1.0.15" name="Confluence-BMW" provider-name="Jezz_X, Team Kodi, harryberlin, g1sbert">
+<addon id="skin.confluence-bmw" version="1.0.16" name="Confluence-BMW" provider-name="Jezz_X, Team Kodi, harryberlin, g1sbert">
   <requires>
     <import addon="xbmc.gui" version="5.12.0" />
   </requires>
