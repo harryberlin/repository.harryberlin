@@ -1,3 +1,6 @@
+[B]1.0.20[/B]
+- vertical menu slides left out
+
 [B]1.0.19[/B]
 - for ibuscommunicator v1.3.4e
 - added some may17 commits from confluence
