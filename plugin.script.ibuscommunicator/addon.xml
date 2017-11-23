@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="1.3.4" provider-name="harryberlin">
+<addon id="plugin.script.ibuscommunicator" name="IBusCommunicator" version="1.3.6" provider-name="harryberlin">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
+    <import_off addon="script.module.pyserial" version="3.4" />
   </requires>
   <extension point="xbmc.python.script" library="default.py" />
   <extension point="xbmc.service" start="login" library="service.py" />

@@ -1,0 +1,19 @@
+[B]1.0.1[/B]
+- bugfix for play error message after restart, by missing media files
+
+[B]1.0.0[/B]
+- added setting to write all medias to music playlist
+
+[B]0.99[/B]
+- changed to Pause on Startup
+
+[B]0.98[/B]
+- Setting for Autostart
+  run the addon, if you have disabled autorun
+
+[B]0.97[/B]
+- add filename as listitem to playlist
+
+[B]0.96[/B]
+- installable for Kodi 16
+- inverted icon color
